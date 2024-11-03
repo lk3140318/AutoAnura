@@ -7,7 +7,6 @@ def is_enabled(value, default):
         return True
     elif value.lower() in ["false", "no", "0", "disable", "n"]:
         return False
-    else:
         return default
 
 # Bot information
